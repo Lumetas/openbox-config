@@ -1,0 +1,9 @@
+#АВТОСТАРТ
+sxhkd &
+numlockx &
+xsetroot -cursor_name left_ptr &
+compton -f --vsync &
+feh --bg-scale bg2.jpg &
+tint2 &
+sleep 2 && setxkbmap -option 'ctrl:nocaps' ; setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle" &
+pcmanfm --desktop &
